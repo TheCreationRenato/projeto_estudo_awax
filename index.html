@@ -18,20 +18,22 @@
                     <img src="media/The Creation logo.png" width="200px">
                 </div>
                 <div class="menu">
-                    <img class="menu_opener" src="./assets/imagens/menu.png" >
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="/#sobre_nos">Sobre Nós</a></li>
-                            <li><a href="/#ourservices">Nossos Serviços</a></li>
-                            <li><a href="/#projects">Projetos</a></li>
-                            <li><a href="/#ourteam">Nossa equipe</a></li>
-                            <li><a href="/#clientes">Nossos clientes</a></li>
-                            <li><a href="/#prices">Preços</a></li>
-                            <li><a href="/#section_facts">Fatos</a></li>
-                            <li><a href="/#contact_us">Contato</a></li>
-                        </ul>
-                    </nav>
+                    <div id="section_menu_mobile">
+                        <img onclick="menu_open()" class="menu_opener" src="./assets/imagens/menu.png" >
+                        <nav id="menu_nav" class="mobile_menu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="/#sobre_nos">Sobre Nós</a></li>
+                                <li onclick="clear()"><a href="/#ourservices">Nossos Serviços</a></li>
+                                <li><a href="/#projects">Projetos</a></li>
+                                <li><a href="/#ourteam">Nossa equipe</a></li>
+                                <li><a href="/#clientes">Nossos clientes</a></li>
+                                <li><a href="/#prices">Preços</a></li>
+                                <li><a href="/#section_facts">Fatos</a></li>
+                                <li><a href="/#contact_us">Contato</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
     </header>
@@ -919,5 +921,6 @@
             </div>
         </section>
     </footer>
+    <script src="/assets/JS/script.js"></script>
 </body>
 </html>
