@@ -1714,8 +1714,13 @@ input::placeholder{
             margin-left: 30px;
         }
 
-        nav {
+        .mobile_menu {
             display: none !important;
+            
+        }
+
+        .mobile_menu_open{
+            display: block !important;
             position: absolute;
             z-index: 99;
             background-color: rgba(0, 0, 0, 0.9);
@@ -1726,6 +1731,9 @@ input::placeholder{
             top: 100px;
             right: 0;
         }
+
+
+        
 
         .menu {
             justify-content: end;
