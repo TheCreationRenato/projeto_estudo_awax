@@ -12,3 +12,7 @@ function menu_open() {
         document.getElementById("menu_nav").classList.add('mobile_menu');
     }
 }
+
+const el = document.getElementById('currentYear');
+const currentYear = new Date().getFullYear();
+el.textContent = currentYear;
