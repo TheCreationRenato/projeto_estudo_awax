@@ -46,12 +46,11 @@ pointers.forEach((p, i) => {
     p.addEventListener('click', () => {
     clearInterval(autoplay);
     irPara(i);
-    autoplay = setInterval(proximoSlide, 4000);
+    
     });
 });
 
-// Autoplay a cada 4 segundos
-autoplay = setInterval(proximoSlide, 4000);
+
 
 // Inicia no primeiro slide
 irPara(0);
